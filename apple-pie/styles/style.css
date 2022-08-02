@@ -1,0 +1,56 @@
+
+.applepie{
+    position: relative;
+    width: 50%;
+    margin: 10px;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+    .title { 
+        position: relative; 
+        left: 300px; 
+        top: -600px; 
+        color: aliceblue; 
+        font-size: 50px;
+    }
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 19px;
+text-align:left;
+}
+
+ul li {
+    text-decoration:double;
+    list-style-type:'-' ;
+}
+p {
+    text-align: center;
+    width: 900px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .recipeinfo {
+    position: relative;
+    width: 20%;
+    left: 250px;
+
+  }
+  
+  .cookinginfo {
+    position: relative;
+    width: 20%;
+    left: 250px;
+  }
+
+  ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
